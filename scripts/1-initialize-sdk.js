@@ -37,3 +37,5 @@ const sdk = new ThirdwebSDK(
     process.exit(1);
   }  
 })();
+
+export default sdk;
