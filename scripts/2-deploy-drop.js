@@ -12,7 +12,7 @@ import { exit } from "process";
             //a description of the collection
             description: "A DAO for meme lovers",
             //the image that will be held on our NFT, that is the fun part
-            image: readFileSync("../public/images/pepe.jpeg"),
+            image: readFileSync("scripts/assets/pepe.jpeg"),
             //we need to pass in the address of the person who will be recieving the proceeds from the same of nft
             //since we plan not charge for the meme, we will just send the proceeds to 0x0
 
