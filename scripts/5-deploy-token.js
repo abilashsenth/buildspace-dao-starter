@@ -6,9 +6,9 @@ import sdk from "./1-initialize-sdk.js";
     //Try deploying an ERC20 token
     const tokenAddress = await sdk.deployer.deployToken({
       //The governance token name
-      name: "MemeDAO",
+      name: "UniversityDAO",
       //The governance token symbol
-      symbol: "MDAO",
+      symbol: "UNIDAO",
       //this will be in case we want to sell our token.
       //becaue we don't have a token to sell, we'll just use the address zero
       //which is a constant that represents the empty address

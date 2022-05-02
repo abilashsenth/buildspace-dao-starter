@@ -9,9 +9,9 @@ const editionDrop = sdk.getEditionDrop(
   try {
     await editionDrop.createBatch([
       {
-        name: "Frog Coin",
-        description: "This NFT will give you access to MemeDAO!",
-        image: "scripts/assets/frog.png",
+        name: "Uni Coin",
+        description: "This NFT will give you access to UniversityDAO!",
+        image: readFileSync("scripts/assets/goldcoin.png"),
       },
     ]);
     console.log("🐸 NFT created in the drop!");

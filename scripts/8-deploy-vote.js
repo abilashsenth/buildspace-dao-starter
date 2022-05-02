@@ -4,7 +4,7 @@ import sdk from "./1-initialize-sdk.js";
   try {
     const voteContractAddress = await sdk.deployer.deployVote({
       //name for the governance contract
-      name: "My MemeDAO",
+      name: "My UniversityDAO",
       //the location of the governance token, our ERC-20 Contract
       voting_token_address: "0xbfe03FDEcbE0ebC4392bC58d1f00BdE7628365c4",
       

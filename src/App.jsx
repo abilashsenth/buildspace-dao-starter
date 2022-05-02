@@ -196,7 +196,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to MemeDAO</h1>
+        <h1>Welcome to UniversityDAO</h1>
         <button className="btn-hero" onClick={connectWithMetamask}>
           Connect with metamask
         </button>
@@ -212,8 +212,8 @@ const App = () => {
     if (hasClaimedNFT) {
       return (
         <div className="member-page">
-          <h1>🐸MemeDAO</h1>
-          <p>Congratulations gamer. You are now part of the elite meme club🤘</p>
+          <h1>UniversityDAO</h1>
+          <p>Congratulations student, you can now vote as a student in University decision proccesses🤘</p>
           <div>
             <div>
               <h2>Member List</h2>

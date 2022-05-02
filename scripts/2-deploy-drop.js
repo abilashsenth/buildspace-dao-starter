@@ -8,11 +8,11 @@ import { exit } from "process";
     try {
         const editionDropAddress = await sdk.deployer.deployEditionDrop({
             //The collection name, MemeCollection, is the default
-            name: "MemeDAO Membership",
+            name: "UniversityDAO Membership",
             //a description of the collection
-            description: "A DAO for meme lovers",
+            description: "A DAO for university students to collaborate on projects",
             //the image that will be held on our NFT, that is the fun part
-            image: readFileSync("scripts/assets/pepe.jpeg"),
+            image: readFileSync("scripts/assets/university.jpg"),
             //we need to pass in the address of the person who will be recieving the proceeds from the same of nft
             //since we plan not charge for the meme, we will just send the proceeds to 0x0
 
